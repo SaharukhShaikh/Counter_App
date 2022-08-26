@@ -1,0 +1,73 @@
+* body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.counter-machine{
+  width: 100%;
+  height: 100%;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1{
+  color: white;
+  background: transparent;
+  background-color: black;
+  margin-bottom: 40px;
+  width: 20rem;
+  border-radius: 30px;
+  font-size: 2vw;
+}
+
+h2{
+  color: rgb(97, 97, 97);
+  background: transparent;
+  font-size: 5rem;
+}
+
+button{
+  min-height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  border-color: darkturquoise;
+  color: black;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  margin-top:40px;
+  box-shadow: 5px 5px 15px -5px black;
+  color: white;
+  font-weight: bold;
+}
+
+.inc-dec-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  margin: 1%;
+}
+input {
+  border-radius: 1rem;
+  padding: 0.6rem;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2%;
+}
