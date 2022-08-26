@@ -1,4 +1,4 @@
-# Counter-App-React
+# Counter-React-App
 
 
 
